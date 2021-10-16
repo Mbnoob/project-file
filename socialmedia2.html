@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Socialpage</title>
+    <script src="https://kit.fontawesome.com/f874de56c0.js" crossorigin="anonymous"></script>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+
+        }
+        .container{
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: seashell;
+        }
+        .icon a{
+            height: 100px;
+            width: 100px;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            font-size: 40px;
+            background: linear-gradient(#fff 50%, red 50%);
+            margin: 10px;
+            background-size: 100% 200%;
+            background-position: 0% 5%;
+            transition: background-position 0.5s, color 0.5s;
+        }
+        .icon a:nth-child(1){
+            color: #3b5998;
+            background-image: linear-gradient(#fff 50%, #3b5998 50%);
+
+        }
+        .icon a:nth-child(2){
+            color: #00aced;
+            background-image: linear-gradient(#fff 50%, #00aced 50%);
+
+        } .icon a:nth-child(3){
+            color: #dd4b39;
+            background-image: linear-gradient(#fff 50%, #dd4b39 50%);
+
+        } .icon a:nth-child(4){
+            color: #B2BEB5;
+            background-image: linear-gradient(#fff 50%, #B2BEB5 50%);
+
+        } .icon a:nth-child(5){
+            color: #969997;
+            background-image: linear-gradient(#fff 50%, #969997 50%);
+        }
+        .icon a:hover{
+            background-position: 0% 100%;  
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="icon">
+            <a href=""><i class="fab fa-facebook"></i></a>
+            <a href=""><i class="fab fa-twitter-square"></i></a>
+            <a href=""><i class="fab fa-google-plus-g"></i></a>
+            <a href=""><i class="fas fa-download"></i></a>
+            <a href=""><i class="fas fa-copy"></i></a>
+        </div>
+    </div>
+</body>
+</html>

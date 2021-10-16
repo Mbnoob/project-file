@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Easy social media page</title>
+    <script src="https://kit.fontawesome.com/b25e0486d5.js" crossorigin="anonymous"></script>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+        }
+        .container{
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: bisque;
+        }
+        .icon a{
+            height: 100px;
+            width: 100px;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            font-size: 40px;
+            margin: 10px;
+            box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.1);
+            background: linear-gradient(#fff 50% , red 50%);
+            background-size: 100% 200%;
+            background-position: 0% 5%;
+            transition: background-position 0.5s, color 0.5s;
+        }
+        .icon a:nth-child(1){
+            color: #008ad3;
+            background-image: linear-gradient(#fff 50% , #008ad3 50%);
+
+        }
+        .icon a:nth-child(2){
+            color: #DD2A7B;
+            background-image: linear-gradient(#fff 50% , #DD2A7B 50%);
+
+        }.icon a:nth-child(3){
+            color: #d71e18;
+            background-image: linear-gradient(#fff 50% ,#d71e18 50%);
+
+        }
+        .icon a:hover{
+            color: #fff;
+            background-position: 0% 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+            <div class="icon">
+                <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://instagran.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://youtube.com" target="_blank"> <i class="fab fa-youtube"></i></a>
+            </div>
+    </div>
+</body>
+</html>
